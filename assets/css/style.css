@@ -23,7 +23,12 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Playfair Display", serif;
 }
 
@@ -317,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height: 83vh;
   background: url("../img/pexels-photo-vietnam.jpeg") top center;
   background-size: cover;
   padding: 0 15px;
@@ -337,6 +342,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
+}
+
+#hero h3 {
+  color:rgb(20, 135, 250);
 }
 
 #hero .btn-get-started {
@@ -683,6 +692,21 @@ section {
   top: 0;
   background: #fff;
   border: 2px solid #04b2c2;
+}
+
+.downloadCV {
+  text-align: center;
+}
+
+.imgCvSpa {
+  padding-bottom: 0.3rem;
+}
+
+@media (min-width: 768px) {
+  .downloadCV {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 
 /*--------------------------------------------------------------
